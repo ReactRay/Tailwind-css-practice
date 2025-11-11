@@ -9,14 +9,48 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 shadow-lg hover:bg-white hover:text-black transition duration-300 ease-in-out"
+    >
+      Hover
+    </button>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 shadow-lg focus:bg-green-500 focus:text-black transition duration-300 ease-in-out"
+    >
+      focus
+    </button>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 shadow-lg active:bg-orange-500 active:text-slate-900 transition duration-300 ease-in-out"
+    >
+      Hover
+    </button>
 
     <!-- Focus State Styling -->
 
-    <!-- Active State Styling -->
-
-    <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 mt-16 hover:bg-sky-500 transition duration-300 ease-in-out"
+    >
+      <h3
+        class="opacity-0 group-hover:text-white group-hover:opacity-100 transition"
+      >
+        Card Title
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
+        earum.
+      </p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500">item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500">item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500">item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500">item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500">item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500">item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
